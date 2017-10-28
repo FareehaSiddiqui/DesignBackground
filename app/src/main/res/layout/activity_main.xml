@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background_main"
+    tools:context="com.example.fareeha.designbackground.MainActivity">
+
+
+  <EditText
+      android:id="@+id/editText2"
+      android:layout_width="match_parent"
+      android:layout_height="50sp"
+      android:layout_margin="30sp"
+      android:background="@drawable/background_edtext"
+      android:drawableLeft="@drawable/ic_people_black_24dp"
+      android:hint="Enter Your Name"
+      android:paddingLeft="20dp" />
+
+  <EditText
+      android:layout_width="match_parent"
+      android:layout_height="50sp"
+      android:background="@drawable/background_edtext"
+      android:drawableLeft="@drawable/password"
+      android:paddingLeft="20dp"
+      android:hint="Enter Your Name"
+      android:id="@+id/editText"
+      android:layout_below="@+id/editText2"
+      android:layout_alignLeft="@+id/editText2"
+      android:layout_alignStart="@+id/editText2"
+      android:layout_alignRight="@+id/editText2"
+      android:layout_alignEnd="@+id/editText2" />
+
+
+</RelativeLayout>
